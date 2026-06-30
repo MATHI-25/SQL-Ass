@@ -1,4 +1,5 @@
 USE mydatabase;
+DROP table Books;
 CREATE TABLE Books (
     book_id INT PRIMARY KEY AUTO_INCREMENT,
     title VARCHAR(100) NOT NULL,
